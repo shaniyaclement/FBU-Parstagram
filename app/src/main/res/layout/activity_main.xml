@@ -16,4 +16,12 @@
         app:srcCompat="@drawable/ic_launcher_foreground"
         tools:layout_editor_absoluteY="288dp" />
 
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="35dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
