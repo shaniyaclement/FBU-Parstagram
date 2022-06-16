@@ -55,12 +55,12 @@ public class LoginActivity extends AppCompatActivity {
                 // if info doesn't match records, send error message
                 if (e != null) {
                     Log.e(TAG, "Login Issue " + e );
-                    Toast.makeText(LoginActivity.this, "Error", Toast.LENGTH_SHORT);
+                    Toast.makeText(LoginActivity.this, "Error", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 //else, go to main activity and send success message
                 goMainActivity();
-                Toast.makeText(LoginActivity.this, "Success!", Toast.LENGTH_SHORT);
+                Toast.makeText(LoginActivity.this, "Success!", Toast.LENGTH_SHORT).show();
             }
         });
 
