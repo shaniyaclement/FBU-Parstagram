@@ -1,8 +1,8 @@
-# Project 3 - *Name of App Here*
+# Project 3 - *ParstaGram*
 
-**Name of your app** is a photo sharing app using Parse as its backend.
+**ParstaGram** is a photo sharing app using Parse as its backend.
 
-Time spent: **X** hours spent in total
+Time spent: **28** hours spent in total
 
 ## User Stories
 
@@ -59,7 +59,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 
 ## Notes
 
-During Step 5 I encountered an issue with connecting my Parse Database with the Android Studio project. I couldn't move forward with the next steps until this one was fixed. The code was correct; however, the Parse Database wwas not communicating the information with the app. I asked for assitance and the instructors even struggled for hours until we decided to just delete the classes and restart. It magially started to work after that. 
+During Step 5 I encountered an issue with connecting my Parse Database with the Android Studio project. I couldn't move forward with the next steps until this one was fixed. The code was correct; however, the Parse Database wwas not communicating the information with the app. I asked for assitance and the instructors even struggled for hours until we decided to just delete the classes and restart. It magially started to work after that.
 ## License
 
     Copyright [yyyy] [name of copyright owner]
