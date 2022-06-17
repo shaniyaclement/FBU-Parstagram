@@ -185,24 +185,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // queries existing posts
-    private void queryPosts() {
-        // Specify which class to query
-        ParseQuery<Post> query = ParseQuery.getQuery(Post.class);
-        query.include(Post.KEY_USER);
-        // Specify the object id
-        query.findInBackground(new FindCallback<Post>() {
-            @Override
-            public void done(List<Post> posts, ParseException e) {
-                if(e != null) {
-                    Log.e(TAG, "Issue with getting posts", e);
-                }
-                for (Post post: posts) {
-                    Log.i(TAG, "Post: " + post.getDescription() + ", username" + post.getUser().getUsername());
-                }
-            }
-        });
-    }
 
     private void goLoginActivity() {
         Intent intent = new Intent(this, LoginActivity.class);

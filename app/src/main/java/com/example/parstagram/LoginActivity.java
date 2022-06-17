@@ -8,7 +8,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.LogInCallback;
@@ -21,6 +20,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button btnLogin;
     private EditText etUsername;
     private EditText etPassword;
+    private Button btnSignup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         etUsername = findViewById(R.id.etUsername);
         etPassword = findViewById(R.id.etPassword);
+        btnSignup = findViewById(R.id.btnSignup);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -45,6 +46,18 @@ public class LoginActivity extends AppCompatActivity {
                 //check credentials
                 loginUser(username, password);
             }});
+        btnSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "SignUp on click");
+                goSignUp();
+            }
+        });
+    }
+
+    private void goSignUp() {
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
     }
 
     private void loginUser(String username, String password) {

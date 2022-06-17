@@ -6,6 +6,8 @@ import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 
+import org.parceler.Parcel;
+
 //@Parcel
 @ParseClassName("Post")
 public class Post extends ParseObject {
