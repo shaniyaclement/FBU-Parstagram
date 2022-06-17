@@ -106,7 +106,6 @@ public class MainActivity extends AppCompatActivity {
     private void goFeedActivity() {
         Intent intent = new Intent(this, FeedActivity.class);
         startActivity(intent);
-        finish();
     }
 
     private void launchCamera() {
