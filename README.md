@@ -44,13 +44,6 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-Display image directly in markdown:
-
-![](https://github.com/shaniyaclement/FBU-Parstagram/raw/master/Parsta.gif)
-
-or use a custom width for the image by switching to HTML:
-
 <img src="https://github.com/shaniyaclement/FBU-Parstagram/raw/master/Parsta.gif" width="250" />
 
 GIF created with [Kap](https://getkap.co/).
